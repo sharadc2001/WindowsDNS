@@ -1,0 +1,19 @@
+Name	Type	Data
+_tcp		
+apps		
+(same as parent folder)	Start of Authority (SOA)	[26], win-12a9apfoho7., hostmaster.
+(same as parent folder)	Name Server (NS)	win-12a9apfoho7.
+api	Alias (CNAME)	lb-ext.template.com.
+api-int	Alias (CNAME)	lb.template.com.
+bootstrap	Host (A)	192.168.40.11
+etcd0	Alias (CNAME)	master0.template.com.
+etcd1	Alias (CNAME)	master1.template.com.
+etcd2	Alias (CNAME)	master2.template.com.
+lb	Host (A)	192.168.60.10
+lb-ext	Host (A)	192.168.40.10
+master0	Host (A)	192.168.40.12
+master1	Host (A)	192.168.40.13
+master2	Host (A)	192.168.40.14
+worker0	Host (A)	192.168.40.15
+worker1	Host (A)	192.168.40.16
+worker2	Host (A)	192.168.40.17
